@@ -31,6 +31,9 @@ class ViewController: UIViewController {
 	}
 
 
-
+	@IBAction func buttonPressed() {
+		print("Hello")
+	}
+	
 }
 
