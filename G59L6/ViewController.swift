@@ -32,7 +32,12 @@ class ViewController: UIViewController {
 
 
 	@IBAction func buttonPressed() {
-		print("Hello")
+		print(titleLabel.text)
+		//взять строку с titleLabel
+//		перевести ее к типу Int - получить число
+//		добавить к нему +1
+//		перевести число в строку
+//		присвоить число в titleLabel
 	}
 	
 }
